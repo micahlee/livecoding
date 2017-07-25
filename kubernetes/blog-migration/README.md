@@ -15,10 +15,21 @@ operating a kubernets cluster and deploying applications to it.
     - [ ] Creating Hyper-V virtual switch
     - [ ] Creating Minikube Cluster
           `minikube start --vm-driver=hyperv --hyperv-virtual-switch=minikube`
+
   - [ ] Using `kubectl` to interact with the cluster
+    - [ ] Installing kubectl
+    - [ ] Checking cluster connectivity
+          `kubectl get pods`
+
+  - [ ] Pointing Docker to Kubernetes cluster
+        `& minikube docker-env | Invoke-Expression`
+
   - [ ] Deploying basic Wordpress pod
+
   - [ ] Deploying Wordpress using Helm
 
   - [ ] Creating data initialization containers to load-in existing mysql and wordpress data
  
-
+## Unanswered Questions
+  - How to run pods that exceed the declared resources on a node?
+    - For testing larger configurations locally on minikube.
