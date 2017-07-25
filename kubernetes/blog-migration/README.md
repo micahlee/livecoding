@@ -11,6 +11,10 @@ operating a kubernets cluster and deploying applications to it.
 ## Exploration Areas
 
   - [ ] Running a local Kubernetes cluster using Minikube
+    - [ ] Installing Minikube
+    - [ ] Creating Hyper-V virtual switch
+    - [ ] Creating Minikube Cluster
+          `minikube start --vm-driver=hyperv --hyperv-virtual-switch=minikube`
   - [ ] Using `kubectl` to interact with the cluster
   - [ ] Deploying basic Wordpress pod
   - [ ] Deploying Wordpress using Helm
