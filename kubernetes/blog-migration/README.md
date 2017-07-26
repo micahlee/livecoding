@@ -29,7 +29,13 @@ operating a kubernets cluster and deploying applications to it.
   - [ ] Deploying Wordpress using Helm
 
   - [ ] Creating data initialization containers to load-in existing mysql and wordpress data
+
+  - [ ] Storage management with Rook/Minio/etc.
+
+  - [ ] Monitoring with Prometheus and Grafana
+
+  - [ ] Running private container registry in cluster
  
 ## Unanswered Questions
-  - How to run pods that exceed the declared resources on a node?
+  - How to run pods/Helm charts that exceed the declared resources on a node?
     - For testing larger configurations locally on minikube.
